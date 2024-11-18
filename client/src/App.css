@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-title-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.package-detail-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.package-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.package-info .desc {
+  font-size: 1.2rem;
+}
+
+.package-content-container {
+  height: 450px;
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.package-content-container .box-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.package-content-container .box-header p {
+  font-size: 1.1rem;
+}
+
+.box-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.box-items .box-item {
+  display: flex;
+  gap: 10px;
+}
+
+.box-body .package-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.edit-btn {
+  cursor: pointer;
+}
+
+.active {
+  color: limegreen;
+  font-weight: 600;
+}
